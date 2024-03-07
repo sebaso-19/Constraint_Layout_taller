@@ -36,7 +36,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
         android:ems="10"
-        android:hint="Escibra la solicitud de transporte de carga"
+        android:hint="Escribe la solcitud de carga"
         android:inputType="text"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -54,14 +54,25 @@
 
     <EditText
         android:id="@+id/messageEditText"
-        android:layout_width="390dp"
-        android:layout_height="537dp"
-        android:layout_marginTop="16dp"
+        android:layout_width="388dp"
+        android:layout_height="181dp"
         android:ems="20"
-        android:inputType="text"
         android:hint="Escriba especificaciones de la carga"
+        android:inputType="text"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintHorizontal_bias="0.478"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/subjectEditText" />
+
+    <EditText
+        android:id="@+id/messageEditText1"
+        android:layout_width="397dp"
+        android:layout_height="158dp"
+        android:layout_marginTop="188dp"
+        android:ems="18"
+        android:hint="Alguna solicitud que se deba tener en en cuenta"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/subjectEditText" />
 
@@ -70,7 +81,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
-        android:text="Enviar solicitud de carga"
+        android:text="Enviar solicitud"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
